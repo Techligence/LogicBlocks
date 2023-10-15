@@ -2,7 +2,7 @@
 
 ## Payments 💰
 
-Developers will only be paid if they adhere to the guidelines. Please see our [Rules for Submission (https://github.com/Techligence/LogicBlocks/blob/main/rules.md) for more details.
+Developers will only be paid if they adhere to the guidelines. Please see our [Rules for Submission] (https://github.com/Techligence/LogicBlocks/blob/main/rules.md) for more details.
 
 ## Basic Workflow 🌊
 
