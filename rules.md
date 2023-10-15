@@ -1,28 +1,23 @@
 # Rules for submission
-As there would be multiple people working on the project it is obvious as your code will affect other in one way or the other (positive or negative) so while writing your code
-or before submitting your first task please check if your code follow the following standards: 
-1. [ES6 syntaxing](https://www.w3schools.com/js/js_es6.asp)  : Utilize ES6 syntax in your JavaScript code. ES6 introduces a range of features that make the language more concise and informative. eg: 
+Hello, awesome devs! 🌟 We're all part of this fantastic journey, and it's crucial that we're on the same page to make our project shine. ✨ Before you submit your very first pull request, please take a moment to ensure your code meets the following guidelines.
+1️⃣ [ES6 Syntaxing](https://www.w3schools.com/js/js_es6.asp)📚  : Utilize ES6 syntax in your JavaScript code for a cleaner and more modern style.
 ```
-// Using arrow function and template literal
+// 🎯 Example: Using arrow function and template literal
 const greet = name => `Hello, ${name}!`;
 ```
-2. Commenting, Commenting and Commenting
-Comments are crucial for explaining the logic and purpose behind your code.
-Every function should have a brief comment explaining its role.
-Complex blocks of code should also be commented to make it easier for others to understand your thought process.
+2️⃣ Commenting, Commenting and Commenting 💬:
+Your comments light the way for fellow devs! 🌟 Each function should have a brief comment explaining its purpose. If the code gets complicated, don't be afraid from adding many comments there as well.
 ```
-// Function to calculate square of a number
+// 🎯 Example: Function to calculate the square of a number
 const square = num => {
   // Squaring operation
   return num * num;
 };
 ```
-3. Tests for your functions using [Jest](https://jestjs.io/)
-Write unit tests for all your functions using Jest.
-Make sure to test not just the "happy path," but also edge cases and failure scenarios.
-Running these tests before submission ensures that your code works as expected and doesn't break existing functionalities.
+3️⃣ Tests for your functions using [Jest](https://jestjs.io/)🧪 :
+Test your functions rigorously using Jest. Cover not only the "easy path" 🌈 but also those tricky edge cases 🌪️ and failure scenarios 🛑.[Hint: Could be easily done with 🤖 [ChatGPT](https://chat.openai.com 👩‍💻👨‍💻]
 ```
-// Jest test for square function
+// 🎯 Example: Jest test for square function
 test('square of 2 should be 4', () => {
   expect(square(2)).toBe(4);
 });
@@ -31,3 +26,42 @@ test('square of 2 should be 4', () => {
 #To run all tests before submission
 npm test
 ```
+4️⃣ Redux for State Management 🌍
+Redux to the used for managing global states! 🦸 Use Redux to share states across different components whenever needed.
+```
+// 🎯 Example: Redux action to set username
+export const setUsername = username => ({
+  type: 'SET_USERNAME',
+  payload: username,
+});
+
+// Redux reducer to manage username state 🔄
+const usernameReducer = (state = '', action) => {
+  switch (action.type) {
+    case 'SET_USERNAME':
+      return action.payload;
+    default:
+      return state;
+  }
+};
+```
+5️⃣ Material UI for UI Components 🎨
+Material UI brings elegance and consistency to our UI. 🖌️ Make sure to stick to Material UI guidelines for that sleek look and feel.
+```
+// 🎯 Example: Using Material UI Button
+import Button from '@material-ui/core/Button';
+
+// Example of using Material UI Button
+const MyButton = () => {
+  return (
+    <Button variant="contained" color="primary">
+      Click Me
+    </Button>
+  );
+};
+```
+
+Happy coding, everyone! Let's make this project a masterpiece! 🎨🚀
+
+
+
