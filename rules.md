@@ -27,7 +27,7 @@ test('square of 2 should be 4', () => {
 #To run all tests before submission
 npm test
 ```
-4️⃣ Redux for State Management 🌍
+4️⃣ [Redux](https://redux.js.org) for State Management 🌍
 Redux to the used for managing global states! 🦸 Use Redux to share states across different components whenever needed.
 ```
 // 🎯 Example: Redux action to set username
@@ -46,7 +46,7 @@ const usernameReducer = (state = '', action) => {
   }
 };
 ```
-5️⃣ Material UI for UI Components 🎨
+5️⃣ [Material UI](https://mui.com) for UI Components 🎨
 Material UI brings elegance and consistency to our UI. 🖌️ Make sure to stick to Material UI guidelines for that sleek look and feel.
 ```
 // 🎯 Example: Using Material UI Button
