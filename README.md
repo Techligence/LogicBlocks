@@ -10,7 +10,7 @@ Before starting ensure the following pre-requisites are met, if not you can down
 ### Steps  
 1.Clone the Repository: This will download a copy of the code onto your local machine.
 ```
-git clone https://github.com/bhaveshsirvi/Techligence.git
+git clone https://github.com/Techligence/LogicBlocks.git
 
 #Navigate to the directory
 cd Techligence
