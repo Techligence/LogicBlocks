@@ -41,7 +41,7 @@ git config --global user.name "Your Name"
 git config --global user.email "youremail@example.com"
 
 # Add the remote directory to your local repository
-git remote add origin https://github.com/bhaveshsirvi/Techligence.git
+git remote add origin https://github.com/Techligence/LogicBlocks.git
 
 # Fetch updates from the main repository
 # (Note: Make sure you are on the main branch before updating)
