@@ -1,9 +1,5 @@
-# Payments and Developer Guidelines 🌟
+# Developer Guidelines 🌟
 
-## Payments 💰
-Developers will only be paid if they adhere to the following code submission rules.
-
-## Rules for submission
 Hello, awesome devs! 🌟 We're all part of this fantastic journey, and it's crucial that we're on the same page to make our project shine. ✨ Before you submit your very first pull request, please take a moment to ensure your code meets the following guidelines.
 
 1️⃣ [ES6 Syntaxing](https://www.w3schools.com/js/js_es6.asp)📚  : Utilize ES6 syntax in your JavaScript code for a cleaner and more modern style.
