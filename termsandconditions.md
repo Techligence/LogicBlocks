@@ -17,7 +17,7 @@ Please also see our [Rules for Submission](https://github.com/Techligence/LogicB
 ### Claiming Tasks 🎯
 
 1. **Task Release**: All tasks will be released with accompanying descriptions and requirements.
-2. **Google Form Submission**: If you are interested in taking up a task, you must fill out the this [Google Form](https://forms.gle/QmLcy9wHaWBit4AT6) provided for claiming tasks.
+2. **Google Form Submission**: If you are interested in taking up a task, you must fill out the Registration Form (sent to your email) provided for claiming tasks.
 3. **First Come, First Serve**: Tasks will be assigned on a first-come, first-serve basis. The first developer to fill out the form will be awarded the task.
 
 ### Deadlines ⏰
@@ -27,7 +27,7 @@ Please also see our [Rules for Submission](https://github.com/Techligence/LogicB
 
 ### Contact and Withdrawal 🏳️
 
-1. **Contact Form**: If you encounter issues or have questions while working on a task, you may fill out this separate [Google Form](https://forms.gle/VzimWTM5vzxvseJe7) to get in touch for assistance.
+1. **Contact Form**: If you encounter issues or have questions while working on a task, you may fill out this separate Contact Form (sent to your email) to get in touch for assistance.
 2. **Withdrawal**: You may withdraw from a task if you find you are unable to complete it. The task will then be reopened for other developers to claim. You can use the same Contact Form to initiate the withdrawal process.
 
 By participating in this project, you agree to these terms and conditions.
