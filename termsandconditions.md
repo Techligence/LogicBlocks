@@ -10,7 +10,7 @@ Developers will only be paid if they adhere to the guidelines and compile withou
 
 ✅ Adhering to Standards: Ensure that changes align with established coding standards and practices. This consistency aids in making the codebase remain clean, understandable, and maintainable.
 
-Please also see our [Rules for Submission](https://github.com/Techligence/LogicBlocks/blob/main/rules.md) for more details.
+Please also see our [Rules for Submission](https://github.com/Techligence/LogicBlocks/blob/main/guidelines.md) for more details. 
 
 ## Basic Workflow 🌊
 
