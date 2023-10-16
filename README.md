@@ -13,7 +13,7 @@ Before starting ensure the following pre-requisites are met, if not you can down
 git clone https://github.com/Techligence/LogicBlocks.git
 
 #Navigate to the directory
-cd Techligence
+cd LogicBlocks
 ```
 2. Install dependencies and run a local development server🛠️ 
 ```
