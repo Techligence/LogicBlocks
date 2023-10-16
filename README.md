@@ -25,7 +25,7 @@ npm run dev
 ```
 ### Troubleshooting🚧
 
-If you encounter any errors, make sure you have the latest versions of Node.js and npm, and try running the commands again.
+If you encounter any errors, delete the local cloned repository and try again and make sure you have the latest stable versions of Node.js and npm, and try running the commands again.
 
 If that still does not work [contact us](mailto:bhaveshsirvi876@gmail.com) 📧.
 
@@ -102,46 +102,3 @@ To let use us know that you are done just start a new pull request from your git
 Follow the steps and write a short description about your feature this will count as your final submission.
 
 You're all done! Now, sit back, relax ☕, and await your next task or feedback in case there are some issues with your work.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
