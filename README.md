@@ -4,7 +4,7 @@ Logicblocks is a web application designed to provide a Blockly-based interface f
 
 Before starting ensure the following pre-requisites are met, if not you can download them from the link below.
 1. [Git](https://git-scm.com/downloads)🐱‍💻
-2. [nodeJS](https://nodejs.org/en/download)🟢
+2. [nodeJS](https://nodejs.org/en/download)🟢 (includes npm by default)
 
 ## Getting started🌟
 ### Steps  
@@ -27,7 +27,7 @@ npm run dev
 
 If you encounter any errors, delete the local cloned repository and try again and make sure you have the latest stable versions of Node.js and npm, and try running the commands again.
 
-If that still does not work [contact us](mailto:bhaveshsirvi876@gmail.com) 📧.
+If that still does not work fill out the Contact form 📧.
 
 
 ## Contributing👩‍💻👨‍💻
