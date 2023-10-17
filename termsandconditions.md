@@ -18,12 +18,12 @@ Please also see our [Rules for Submission](https://github.com/Techligence/LogicB
 
 1. **Task Release**: All tasks will be released with accompanying descriptions and requirements.
 2. **Google Form Submission**: If you are interested in taking up a task, you must fill out the Registration Form (sent to your email) provided for claiming tasks.
-3. **First Come, First Serve**: Tasks will be assigned on a first-come, first-serve basis. The first developer to fill out the form will be awarded the task.
+3. **First Come, First Serve**: Tasks will be assigned on a first-come, first-serve basis. The first developer to fill out the form will be alloted the task.
 
 ### Deadlines ⏰
 
 1. **Three-Day Window**: After you have been assigned a task, you have 3 days to complete it and submit it for review.
-2. **Expiration**: If you do not complete the task within the 3-day window, the task will be reopened for others to complete first and clain the money.
+2. **Expiration**: If you do not complete the task within the 3-day window, the task will be reopened for others to complete first and claim the money.
 
 ### Contact and Withdrawal 🏳️
 
