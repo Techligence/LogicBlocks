@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, IconButton } from '@mui/material';
-import PlayArrowIcon from '@mui/icons-material/PlayArrow';
+import FlagIcon from '@mui/icons-material/Flag';
 import StopIcon from '@mui/icons-material/Stop';
 import UndoIcon from '@mui/icons-material/Undo';
 import RedoIcon from '@mui/icons-material/Redo';
@@ -12,7 +12,7 @@ import { Resizable } from 're-resizable';
 
 const Canvas = () => {
   return (
-    <Card class="highlighted" style={{ position: 'relative', width: '600px', margin: '20px auto', height: '600px', overflow: 'hidden' }}>
+    <Card class="highlighted" style={{ position: 'relative', width: '700px', margin: '28px auto', height: '600px', overflow: 'hidden' }}>
       <h1 style={{ textAlign: 'center' ,fontSize: '14px'}}>Canvas</h1>
       <Draggable bounds="parent" defaultPosition={{x: 150, y: 100}}>
         <Resizable
@@ -43,7 +43,7 @@ const Canvas = () => {
       }}>
         <div>
           <IconButton aria-label="play" onClick={() => {}}>
-            <PlayArrowIcon style={{ color: 'green' }}/>
+            <FlagIcon style={{ color: 'green' }}/>
           </IconButton>
           <IconButton aria-label="stop" onClick={() => {}}>
             <StopIcon style={{ color: 'red' }}/>
