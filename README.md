@@ -7,6 +7,10 @@ Before starting ensure the following pre-requisites are met, if not you can down
 2. [nodeJS](https://nodejs.org/en/download)🟢 (includes npm by default)
 
 ## Getting started🌟
+
+### Which IDE should you choose? 🤔
+While you're free to use any IDE that suits your needs, we highly recommend Visual Studio Code 💻. It offers a comprehensive set of features that cater to a wide range of programming languages and tasks. Check it out [here](https://code.visualstudio.com/)
+
 ### Steps  
 1.Clone the Repository: This will download a copy of the code onto your local machine.
 ```
