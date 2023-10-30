@@ -1,18 +1,10 @@
 import React, { useState } from 'react';
-import MicIcon from '@mui/icons-material/Mic';
-import CameraAltIcon from '@mui/icons-material/CameraAlt';
 import AnchorIcon from '@mui/icons-material/Anchor';
-import {
-  Button,
-  Menu,
-  MenuItem,
-  Switch,
-  ToggleButton,
-  ToggleButtonGroup,
-  Box,
-  ListItemIcon,
-  ListItemText,
-} from '@mui/material';
+import { Button, Menu, Box } from '@mui/material';
+import CameraToggle from './AnchorMenu/CameraToggle';
+import MicToggle from './AnchorMenu/MicToggle';
+import ModeToggle from './AnchorMenu/ModeToggle';
+import { Mic } from '@mui/icons-material';
 
 const AnchorMenu = () => {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -43,27 +35,9 @@ const AnchorMenu = () => {
           },
         }}
       >
-        <MenuItem>
-          <ListItemIcon>
-            <CameraAltIcon color={camera ? 'primary' : 'inherit'} />
-          </ListItemIcon>
-          <ListItemText primary="Camera" />
-          <Switch checked={camera} onChange={() => setCamera(!camera)} />
-        </MenuItem>
-        <MenuItem>
-          <ListItemIcon>
-            <MicIcon color={mic ? 'primary' : 'inherit'} />
-          </ListItemIcon>
-          <ListItemText primary="Mic" />
-          <Switch checked={mic} onChange={() => setMic(!mic)} />
-        </MenuItem>
-        <MenuItem>
-          <ToggleButtonGroup value={mode} exclusive onChange={(e, newMode) => setMode(newMode)}>
-            <ToggleButton value="Hardware">Hardware</ToggleButton>
-            <ToggleButton value="Software">Software</ToggleButton>
-            <ToggleButton value="Lab">Lab</ToggleButton>
-          </ToggleButtonGroup>
-        </MenuItem>
+        <CameraToggle camera={camera} setCamera={setCamera} />
+        <MicToggle mic={mic} setMic={setMic} />
+        <ModeToggle mode={mode} setMode={setMode} />
       </Menu>
     </Box>
   );

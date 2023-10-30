@@ -1,14 +1,16 @@
 import React from 'react';
-import { Card, IconButton } from '@mui/material';
-import FlagIcon from '@mui/icons-material/Flag';
-import StopIcon from '@mui/icons-material/Stop';
-import UndoIcon from '@mui/icons-material/Undo';
-import RedoIcon from '@mui/icons-material/Redo';
-import ZoomInIcon from '@mui/icons-material/ZoomIn';
-import ZoomOutIcon from '@mui/icons-material/ZoomOut';
-import FullscreenIcon from '@mui/icons-material/Fullscreen';
+import { Card } from '@mui/material';
 import Draggable from 'react-draggable';
 import { Resizable } from 're-resizable';
+
+// Import the button components
+import FlagButton from './Canvas/FlagButton';
+import StopButton from './Canvas/StopButton';
+import UndoButton from './Canvas/UndoButton';
+import RedoButton from './Canvas/RedoButton';
+import ZoomIn from './Canvas/ZoomIn';
+import ZoomOut from './Canvas/ZoomOut';
+import FullScreen from './Canvas/FullScreen';
 
 const Canvas = () => {
   return (
@@ -20,7 +22,7 @@ const Canvas = () => {
             width: '50%',
             height: '50%'
           }}
-          style={{
+          style={{  
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
@@ -42,29 +44,15 @@ const Canvas = () => {
         width: '100%'
       }}>
         <div>
-          <IconButton aria-label="play" onClick={() => {}}>
-            <FlagIcon style={{ color: 'green' }}/>
-          </IconButton>
-          <IconButton aria-label="stop" onClick={() => {}}>
-            <StopIcon style={{ color: 'red' }}/>
-          </IconButton>
-          <IconButton aria-label="undo" onClick={() => {}}>
-            <UndoIcon style={{ color: 'skyblue' }} />
-          </IconButton>
-          <IconButton aria-label="redo" onClick={() => {}}>
-            <RedoIcon style={{ color: 'skyblue' }}/>
-          </IconButton>
+          <FlagButton onClick={() => {}} />
+          <StopButton onClick={() => {}} />
+          <UndoButton onClick={() => {}} />
+          <RedoButton onClick={() => {}} />
         </div>
         <div>
-          <IconButton aria-label="zoom-in" onClick={() => {}}>
-            <ZoomInIcon />
-          </IconButton>
-          <IconButton aria-label="zoom-out" onClick={() => {}}>
-            <ZoomOutIcon />
-          </IconButton>
-          <IconButton aria-label="fullscreen" onClick={() => {}}>
-            <FullscreenIcon />
-          </IconButton>
+          <ZoomIn onClick={() => {}} />
+          <ZoomOut onClick={() => {}} />
+          <FullScreen onClick={() => {}} />
         </div>
       </div>
     </Card>
